@@ -76,9 +76,14 @@ li:hover {
   font-size: 30px;
 }
 
+.header-text h3{
+  font-size: 30px;
+  margin-top:-12%;
+}
+
 .header-text h1 {
   font-size: 60px;
-  margin-top: 20px;
+  margin-top: -5px;
 }
 
 .me {
@@ -455,5 +460,5 @@ form > .btn2 {
   margin-bottom:-10px;
   display: block;
   float: right;
-  width: 325px;
+  width: 300px;
 }

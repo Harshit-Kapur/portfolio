@@ -30,10 +30,15 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+        
+  
+
         <div class="header-text">
-          <p>AI/ML enthusiast</p>
+          <h3> 
+            <span class="element"></span>
+            </h3>
           <h1 class="title">
-            <span>Hi, my name is</span><br />
+            <span>Hi, my name is</span><br/>
             Harshit Kapur
           </h1>
         </div>
@@ -247,6 +252,13 @@
           })
           .catch(error => console.error('Error!', error.message))
       })
+    </script>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('.element', {
+        strings: ['AI/ML Enthusiast','Researcher','Tech Savy'],
+        typeSpeed: 50,
+      });
     </script>
   </body>
 </html>
