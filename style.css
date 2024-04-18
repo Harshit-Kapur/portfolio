@@ -368,6 +368,16 @@ form>.btn2 {
     padding: 1rem 2rem;
   }
 
+  #header {
+    background-image: url(images/t.jpg);
+    padding: 2rem;
+    /* padding-top: 0rem; */
+    /* margin-top: 5rem; */
+    padding-right: 0;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
   .header-text {
     margin-top: 40%;
   }
